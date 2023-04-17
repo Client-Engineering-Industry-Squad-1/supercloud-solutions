@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 270-self-hosted-integration-runtime
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '270'
+  annotations:
+    displayName: Self Hosted Integration Runtime
+    description: Self Hosted Integration Runtime
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: self-hosted-integration-runtime
+      alias: self-hosted-integration-runtime
