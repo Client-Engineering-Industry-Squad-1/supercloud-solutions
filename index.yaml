@@ -434,7 +434,7 @@ boms:
     cloudProvider: azure
     versions:
       - version: v1.0.0
-        metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/270-self-hosted-integration-runtime_v1.0.0/bom.yaml
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/270-self-hosted-integration-runtime_v1.0.0/bom.yaml
   - name: 280-integration-platform-multicloud
     displayName: Cloud Pak for Integration
     description: GitOps deployment of Cloud Pak for Integration and components
