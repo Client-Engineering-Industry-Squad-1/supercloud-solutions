@@ -448,6 +448,69 @@ boms:
     versions:
       - version: v1.0.0
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/280-integration-platform-multicloud_v1.0.0/bom.yaml
+  - name: 350-data-hub-connection
+    displayName: Data Hub Connection
+    description: Data Hub Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-data-hub-connection_v1.0.0/bom.yaml
+  - name: 350-integration-services-connection
+    displayName: Integration Services Connection
+    description: Integration Services Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-integration-services-connection_v1.0.0/bom.yaml
+  - name: 350-oracle-database-connection
+    displayName: Oracle Database Connection
+    description: Oracle Database Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-oracle-database-connection_v1.0.0/bom.yaml
+  - name: 350-pfna-data-lake-connection
+    displayName: PFNA Data Lake Connection
+    description: PFNA Data Lake Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-pfna-data-lake-connection_v1.0.0/bom.yaml
+  - name: 350-teradata-connection
+    displayName: Teradata Connection
+    description: Teradata Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-teradata-connection_v1.0.0/bom.yaml
+  - name: 350-salesforce-connection
+    displayName: Salesforce Connection
+    description: Salesforce Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-salesforce-connection_v1.0.0/bom.yaml
+  - name: 380-inbound-internet-connection
+    displayName: Inbound Internet Connection
+    description: Inbound Internet Connection
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/380-inbound-internet-connection_v1.0.0/bom.yaml
   - name: 400-mas-core-multicloud
     displayName: Maximo - Core
     description: GitOps deployment of Maximo Application Suite Core for OpenShift
@@ -498,6 +561,24 @@ boms:
     versions:
       - version: v1.0.0
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/415-mas-monitor_v1.0.0/bom.yaml
+  - name: 470-databricks-workspace
+    displayName: Databricks Workspace
+    description: Databricks Workspace
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/470-databricks-workspace_v1.0.0/bom.yaml
+  - name: 540-aks-container-deployment
+    displayName: AKS Container Deployment
+    description: AKS Container Deployment
+    category: infrastructure
+    type: bom
+    cloudProvider: azure
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/540-aks-container-deployment_v1.0.0/bom.yaml
   - name: 700-cp4s-multicloud
     displayName: 700-cp4s-multicloud
     description: Layer for 700-cp4s-multicloud

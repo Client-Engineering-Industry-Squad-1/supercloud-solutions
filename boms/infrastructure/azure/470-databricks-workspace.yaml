@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 470-databricks-workspace
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '470'
+  annotations:
+    displayName: Databricks Workspace
+    description: Databricks Workspace
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: databricks-workspace
+      alias: databricks-workspace

@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 350-integration-services-connection
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '350'
+  annotations:
+    displayName: Integration Services Connection
+    description: Integration Services Connection
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: integration-services-connection
+      alias: integration-services-connection

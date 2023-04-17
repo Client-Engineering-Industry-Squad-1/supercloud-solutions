@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 350-data-hub-connection
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '350'
+  annotations:
+    displayName: Data Hub Connection
+    description: Data Hub Connection
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: data-hub-connection
+      alias: data-hub-connection

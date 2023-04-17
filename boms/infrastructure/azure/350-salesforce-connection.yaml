@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 350-salesforce-connection
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '350'
+  annotations:
+    displayName: Salesforce Connection
+    description: Salesforce Connection
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: salesforce-connection
+      alias: salesforce-connection

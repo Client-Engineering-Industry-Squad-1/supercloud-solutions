@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 380-inbound-internet-connection
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '380'
+  annotations:
+    displayName: Inbound Internet Connection
+    description: Inbound Internet Connection
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: inbound-internet-connection
+      alias: inbound-internet-connection

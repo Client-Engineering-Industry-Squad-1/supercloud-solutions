@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 350-pfna-data-lake-connection
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '350'
+  annotations:
+    displayName: PFNA Data Lake Connection
+    description: PFNA Data Lake Connection
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: pfna-data-lake-connection
+      alias: pfna-data-lake-connection

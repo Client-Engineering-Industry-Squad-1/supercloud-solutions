@@ -1,0 +1,17 @@
+apiVersion: cloud.ibm.com/v1alpha1
+kind: BillOfMaterial
+metadata:
+  name: 540-aks-container-deployment
+  labels:
+    type: infrastructure
+    platform: azure
+    code: '540'
+  annotations:
+    displayName: AKS Container Deployment
+    description: AKS Container Deployment
+    vpn/required: false
+spec:
+  version: v1.0.0
+  modules:
+    - name: aks-container-deployment
+      alias: aks-container-deployment
