@@ -8,7 +8,7 @@ metadata:
     code: '101'
   annotations:
     displayName: Azure vnet Standard
-    description: Azure base infrastructure for OpenShift standard architecture
+    description: Azure base infrastructure
     vpn/required: false
 spec:
   version: v1.0.1
