@@ -429,7 +429,7 @@ boms:
   - name: 270-self-hosted-integration-runtime
     displayName: Self Hosted Integration Runtime
     description: Self Hosted Integration Runtime
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -451,7 +451,7 @@ boms:
   - name: 350-data-hub-connection
     displayName: Data Hub Connection
     description: Data Hub Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -460,7 +460,7 @@ boms:
   - name: 350-integration-services-connection
     displayName: Integration Services Connection
     description: Integration Services Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -469,7 +469,7 @@ boms:
   - name: 350-oracle-database-connection
     displayName: Oracle Database Connection
     description: Oracle Database Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -478,7 +478,7 @@ boms:
   - name: 350-pfna-data-lake-connection
     displayName: PFNA Data Lake Connection
     description: PFNA Data Lake Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -487,7 +487,7 @@ boms:
   - name: 350-teradata-connection
     displayName: Teradata Connection
     description: Teradata Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -496,7 +496,7 @@ boms:
   - name: 350-salesforce-connection
     displayName: Salesforce Connection
     description: Salesforce Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -505,7 +505,7 @@ boms:
   - name: 380-inbound-internet-connection
     displayName: Inbound Internet Connection
     description: Inbound Internet Connection
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -564,7 +564,7 @@ boms:
   - name: 470-databricks-workspace
     displayName: Databricks Workspace
     description: Databricks Workspace
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
@@ -573,7 +573,7 @@ boms:
   - name: 540-aks-container-deployment
     displayName: AKS Container Deployment
     description: AKS Container Deployment
-    category: infrastructure
+    category: software
     type: bom
     cloudProvider: azure
     versions:
