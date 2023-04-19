@@ -45,7 +45,7 @@ metadata:
       description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption, ideal for POC/POT/MVP
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/flavors/standard.png
     - name: advanced
-      displayName: Prepare for Production
+      displayName: Production
       description: A more advanced deployment that employs network isolation to securely route traffic between the different layers, prepare environment for production deployed IBM Software
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/flavors/advanced.png
 modules: []
@@ -96,7 +96,7 @@ boms:
     category: infrastructure
     type: solution
     cloudProvider: azure
-    flavor: production
+    flavor: advanced
     versions:
       - version: v1.0.0
         metadataUrl: https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/solutions/infrastructure/azure/infra-azure-production.yaml
