@@ -82,6 +82,16 @@ boms:
         metadataUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/solutions/infrastructure/azure/infra-azure-quickstart.yaml
   - name: infra-azure-standard
     displayName: 'Infrastructure: Azure Standard'
+    description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption with Red Hat OpenShift ARO and IPI
+    category: infrastructure
+    type: solution
+    cloudProvider: azure
+    flavor: standard
+    versions:
+      - version: v1.0.0
+        metadataUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/solutions/infrastructure/azure/infra-azure-standard.yaml
+  - name: infra-azure-production
+    displayName: 'Infrastructure: Azure Standard'
     description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption
     category: infrastructure
     type: solution
@@ -89,7 +99,7 @@ boms:
     flavor: standard
     versions:
       - version: v1.0.0
-        metadataUrl: https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/solutions/infrastructure/azure/infra-azure-standard-vnet.yaml
+        metadataUrl: https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/solutions/infrastructure/azure/infra-azure-production.yaml
   - name: infra-aws-quickstart
     displayName: 'Infrastructure: AWS Quickstart'
     description: AWS simple architecture to quickly get an OpenShift cluster provisioned, ideal for demos

@@ -1,14 +1,14 @@
 apiVersion: cloudnativetoolkit.dev/v2
 kind: Solution
 metadata:
-  name: infra-azure-standard
+  name: infra-azure-production
   labels:
     type: infrastructure
     platform: azure
-    flavor: standard
+    flavor: production
   annotations:
-    displayName: "Infrastructure: Azure Standard"
-    description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption
+    displayName: "Infrastructure: Azure Production"
+    description: A production deployment environment with typical security protections, private endpoints, VPN server, key management encryption
     files.cloudnativetoolkit.dev/diagram: diagram.png
     files.cloudnativetoolkit.dev/readme: README.md
 spec:
