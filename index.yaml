@@ -198,7 +198,7 @@ boms:
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/105-azure-aro_v1.0.0/bom.yaml
   - name: 101-azure-vnet-std
     displayName: Azure VNet
-    description: Azure base infrastructure for OpenShift standard architecture
+    description: Azure base infrastructure
     tags:
       - azure
       - openshift
@@ -617,8 +617,8 @@ boms:
   - name: 110-azure-acme-certificate
     category: infrastructure
     cloudProvider: azure
-    displayName: 110-azure-acme-certificate
-    description: Layer for 110-azure-acme-certificate
+    displayName: Azure ACME Certificate
+    description: Azure ACME Certificate
     type: bom
     versions:
       - version: v1.0.0
@@ -626,8 +626,8 @@ boms:
   - name: 105-azure-vnet-openshift
     category: infrastructure
     cloudProvider: azure
-    displayName: 105-azure-vnet-openshift
-    description: Layer for 105-azure-vnet-openshift
+    displayName: Azure VNet OpenShift
+    description: Azure VNet OpenShift
     type: bom
     versions:
       - version: v1.0.1
@@ -635,8 +635,10 @@ boms:
       - version: v1.0.0
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/105-azure-vnet-openshift_v1.0.0/bom.yaml
   - name: 105-azure-ocp-ipi
-    displayName: 105-azure-ocp-ipi
-    description: Layer for 105-azure-ocp-ipi
+    category: infrastructure
+    cloudProvider: azure
+    displayName: Azure OCP IPI
+    description: Azure OCP IPI
     type: bom
     versions:
       - version: v1.0.1
@@ -661,8 +663,8 @@ boms:
     category: storage
     type: bom
     cloudProvider: azure
-    displayName: 150-azure-storage-blob
-    description: Layer for 150-azure-storage-blob
+    displayName: Azure Storage Blob
+    description: Azure Storage Blob
     versions:
       - version: v1.0.0
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/150-azure-storage-blob_v1.0.0/bom.yaml
