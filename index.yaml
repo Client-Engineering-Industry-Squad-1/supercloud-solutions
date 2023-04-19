@@ -26,7 +26,7 @@ metadata:
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/use-cases/mvp-rohan.png
       flavor: standard
     - name: production
-      displayName: Production
+      displayName: Prepare for Production
       description: You are now focused on the delivery phase of a project and need to place IBM Technology into a highly scalable secure production environment
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/use-cases/production-joe.png
       flavor: advanced
