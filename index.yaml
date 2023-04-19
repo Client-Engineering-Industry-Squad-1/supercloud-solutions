@@ -82,7 +82,7 @@ boms:
         metadataUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/solutions/infrastructure/azure/infra-azure-quickstart.yaml
   - name: infra-azure-standard
     displayName: 'Infrastructure: Azure Standard'
-    description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption, ideal for POC/POT/MVP
+    description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption
     category: infrastructure
     type: solution
     cloudProvider: azure
