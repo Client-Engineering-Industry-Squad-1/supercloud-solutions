@@ -3,7 +3,7 @@ kind: BillOfMaterial
 metadata:
   name: 540-aks-container-deployment
   labels:
-    type: infrastructure
+    type: software
     platform: azure
     code: '540'
   annotations:

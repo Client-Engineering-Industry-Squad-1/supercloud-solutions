@@ -3,7 +3,7 @@ kind: BillOfMaterial
 metadata:
   name: 270-self-hosted-integration-runtime
   labels:
-    type: infrastructure
+    type: software
     platform: azure
     code: '270'
   annotations:

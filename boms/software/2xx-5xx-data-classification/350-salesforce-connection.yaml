@@ -3,7 +3,7 @@ kind: BillOfMaterial
 metadata:
   name: 350-salesforce-connection
   labels:
-    type: infrastructure
+    type: software
     platform: azure
     code: '350'
   annotations:

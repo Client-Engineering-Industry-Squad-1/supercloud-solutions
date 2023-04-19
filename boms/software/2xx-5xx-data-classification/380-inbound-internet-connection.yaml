@@ -3,7 +3,7 @@ kind: BillOfMaterial
 metadata:
   name: 380-inbound-internet-connection
   labels:
-    type: infrastructure
+    type: software
     platform: azure
     code: '380'
   annotations:
