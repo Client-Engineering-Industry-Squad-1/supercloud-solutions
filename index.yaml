@@ -26,7 +26,7 @@ metadata:
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/use-cases/mvp-rohan.png
       flavor: standard
     - name: production
-      displayName: Prepare for Production
+      displayName: Production
       description: You are now focused on the delivery phase of a project and need to place IBM Technology into a highly scalable secure production environment
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/use-cases/production-joe.png
       flavor: advanced
@@ -41,7 +41,7 @@ metadata:
       description: A simple architecture to quickly get an OpenShift cluster provisioned ideal for Demos
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/flavors/quickstart.png
     - name: standard
-      displayName: Standard
+      displayName: PoC
       description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption, ideal for POC/POT/MVP
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/flavors/standard.png
     - name: advanced
@@ -615,6 +615,8 @@ boms:
       - version: v1.0.0
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/111-supplied-certificate_v1.0.0/bom.yaml
   - name: 110-azure-acme-certificate
+    category: infrastructure
+    cloudProvider: azure
     displayName: 110-azure-acme-certificate
     description: Layer for 110-azure-acme-certificate
     type: bom
@@ -622,6 +624,8 @@ boms:
       - version: v1.0.0
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/110-azure-acme-certificate_v1.0.0/bom.yaml
   - name: 105-azure-vnet-openshift
+    category: infrastructure
+    cloudProvider: azure
     displayName: 105-azure-vnet-openshift
     description: Layer for 105-azure-vnet-openshift
     type: bom
