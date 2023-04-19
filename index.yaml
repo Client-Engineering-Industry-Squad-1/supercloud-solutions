@@ -91,12 +91,12 @@ boms:
       - version: v1.0.0
         metadataUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/solutions/infrastructure/azure/infra-azure-standard.yaml
   - name: infra-azure-production
-    displayName: 'Infrastructure: Azure Standard'
+    displayName: 'Infrastructure: Azure Production'
     description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption
     category: infrastructure
     type: solution
     cloudProvider: azure
-    flavor: standard
+    flavor: production
     versions:
       - version: v1.0.0
         metadataUrl: https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/solutions/infrastructure/azure/infra-azure-production.yaml
