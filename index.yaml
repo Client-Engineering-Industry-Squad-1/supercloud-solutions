@@ -467,7 +467,7 @@ boms:
   - name: 350-data-hub-connection
     displayName: Data Hub Connection
     description: Data Hub Connection
-    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/datahub.png"
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/datahub.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -517,6 +517,7 @@ boms:
   - name: 350-salesforce-connection
     displayName: Salesforce Connection
     description: Salesforce Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/salesforce.png"
     category: software
     type: bom
     cloudProvider: azure
