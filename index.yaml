@@ -73,6 +73,7 @@ boms:
   - name: infra-azure-quickstart
     displayName: 'Infrastructure: Azure Quickstart'
     description: Azure simple architecture to quickly get an OpenShift cluster provisioned, ideal for demos
+    iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/cloud-providers/azure.png
     category: infrastructure
     type: solution
     cloudProvider: azure
@@ -83,6 +84,7 @@ boms:
   - name: infra-azure-standard
     displayName: 'Infrastructure: Azure Standard'
     description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption with Red Hat OpenShift ARO and IPI
+    iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/cloud-providers/azure.png
     category: infrastructure
     type: solution
     cloudProvider: azure
@@ -93,6 +95,7 @@ boms:
   - name: infra-azure-production
     displayName: 'Infrastructure: Azure Production'
     description: A standard production deployment environment with typical security protections, private endpoints, VPN server, key management encryption
+    iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/cloud-providers/azure.png
     category: infrastructure
     type: solution
     cloudProvider: azure
@@ -141,6 +144,7 @@ boms:
   - name: 105-existing-openshift
     displayName: Existing OpenShift
     description: Existing OpenShift cluster
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/openshift.png"
     category: infrastructure
     type: bom
     versions:
@@ -183,6 +187,7 @@ boms:
   - name: 105-azure-aro
     displayName: Azure Red Hat OpenShift (ARO) Quickstart
     description: Azure Vnet and ARO
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/openshift-azure.png"
     tags:
       - azure
       - openshift
@@ -199,6 +204,7 @@ boms:
   - name: 101-azure-vnet-std
     displayName: Azure VNet
     description: Azure base infrastructure
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/virtual-network.png"
     tags:
       - azure
       - openshift
@@ -213,6 +219,7 @@ boms:
   - name: 105-azure-aro-std
     displayName: Azure Red Hat OpenShift (ARO) Standard
     description: Azure ARO for Standard Architecture
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/openshift-azure.png"
     tags:
       - azure
       - openshift
@@ -437,6 +444,7 @@ boms:
   - name: 270-self-hosted-integration-runtime
     displayName: Self Hosted Integration Runtime
     description: Self Hosted Integration Runtime
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/selfhosted.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -459,6 +467,7 @@ boms:
   - name: 350-data-hub-connection
     displayName: Data Hub Connection
     description: Data Hub Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/datahub.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -468,6 +477,7 @@ boms:
   - name: 350-integration-services-connection
     displayName: Integration Services Connection
     description: Integration Services Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/integration.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -477,6 +487,7 @@ boms:
   - name: 350-oracle-database-connection
     displayName: Oracle Database Connection
     description: Oracle Database Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/oracle.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -486,6 +497,7 @@ boms:
   - name: 350-pfna-data-lake-connection
     displayName: PFNA Data Lake Connection
     description: PFNA Data Lake Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/data-lake.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -495,6 +507,7 @@ boms:
   - name: 350-teradata-connection
     displayName: Teradata Connection
     description: Teradata Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/teradata.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -513,6 +526,7 @@ boms:
   - name: 380-inbound-internet-connection
     displayName: Inbound Internet Connection
     description: Inbound Internet Connection
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/inbound.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -572,6 +586,7 @@ boms:
   - name: 470-databricks-workspace
     displayName: Databricks Workspace
     description: Databricks Workspace
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/databricks.png"
     category: software
     type: bom
     cloudProvider: azure
@@ -581,6 +596,7 @@ boms:
   - name: 540-aks-container-deployment
     displayName: AKS Container Deployment
     description: AKS Container Deployment
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/aks.svg"
     category: software
     type: bom
     cloudProvider: azure
@@ -616,6 +632,7 @@ boms:
     category: infrastructure
     cloudProvider: azure
     displayName: Azure ACME Certificate
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/acme.png"
     description: Azure ACME Certificate
     type: bom
     versions:
@@ -625,6 +642,7 @@ boms:
     category: infrastructure
     cloudProvider: azure
     displayName: Azure VNet OpenShift
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/virtual-network.png"
     description: Azure VNet OpenShift
     type: bom
     versions:
@@ -636,6 +654,7 @@ boms:
     category: infrastructure
     cloudProvider: azure
     displayName: Azure OCP IPI
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/infrastructure/openshift-azure.png"
     description: Azure OCP IPI
     type: bom
     versions:
@@ -658,6 +677,7 @@ boms:
       - version: v1.0.1
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/110-supplied-certificate_v1.0.1/bom.yaml
   - name: 150-azure-storage-blob
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/storage/azureblob.png"
     category: storage
     type: bom
     cloudProvider: azure
