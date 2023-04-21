@@ -311,7 +311,7 @@ boms:
   - name: 210-azure-portworx-storage
     displayName: Azure - Portworx Cluster Storage
     description: Installs Portworx in an Azure cluster
-    iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/storage/portworx.png
+    iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/storage/portworx.png"
     tags:
       - portworx
       - azure
