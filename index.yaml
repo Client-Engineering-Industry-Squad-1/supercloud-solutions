@@ -4,7 +4,7 @@ metadata:
   cloudProviders:
     - name: aws
       displayName: AWS
-      description: Amazon Web Services infrastructure with Red Hat OpenShift ROSA
+      description: Amazon Web Services infrastructure
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/cloud-providers/aws.png
     - name: azure
       displayName: Azure
@@ -12,12 +12,12 @@ metadata:
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/cloud-providers/azure.png
     - name: ibm
       displayName: IBM
-      description: IBM Cloud infrastructure with Red Hat OpenShift ROKS
+      description: IBM Cloud infrastructure
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/cloud-providers/ibmcloud.png
   useCases:
     - name: demo
       displayName: Setup a Demo
-      description: As a tech seller you want to demo the capability of IBM Technology use this personal to get started quickly
+      description: As a tech seller you want to demo the capability of Technology use this personal to get started quickly
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/use-cases/demo-tammy.png
       flavor: quickstart
     - name: mvp
@@ -27,7 +27,7 @@ metadata:
       flavor: standard
     - name: production
       displayName: Prepare for Production
-      description: You are now focused on the delivery phase of a project and need to place IBM Technology into a highly scalable secure production environment
+      description: You are now focused on the delivery phase of a project and need to place Technology into a highly scalable secure production environment
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/use-cases/production-joe.png
       flavor: advanced
     - name: dev
@@ -46,7 +46,7 @@ metadata:
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/flavors/standard.png
     - name: advanced
       displayName: Production
-      description: A more advanced deployment that employs network isolation to securely route traffic between the different layers, prepare environment for production deployed IBM Software
+      description: A more advanced deployment that employs network isolation to securely route traffic between the different layers, prepare environment for production deployed Software
       iconUrl: https://raw.githubusercontent.com/cloud-native-toolkit/automation-solutions/main/icons/flavors/advanced.png
 modules: []
 boms:
