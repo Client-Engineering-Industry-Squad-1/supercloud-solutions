@@ -598,7 +598,7 @@ boms:
     displayName: AKS Container Deployment
     description: AKS Container Deployment
     iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/aks.svg"
-    category: software
+    category: infrastructure
     type: bom
     cloudProvider: azure
     versions:
