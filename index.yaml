@@ -495,8 +495,8 @@ boms:
       - version: v1.0.0
         metadataUrl: https://github.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/releases/download/350-oracle-database-connection_v1.0.0/bom.yaml
   - name: 350-pfna-data-lake-connection
-    displayName: PFNA Data Lake Connection
-    description: PFNA Data Lake Connection
+    displayName: Data Lake Connection
+    description: Data Lake Connection
     iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/data-lake.png"
     category: software
     type: bom
