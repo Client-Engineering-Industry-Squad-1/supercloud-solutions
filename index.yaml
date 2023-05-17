@@ -618,6 +618,7 @@ boms:
   - name: 300-cloud-pak-for-data-foundation
     displayName: 300-cloud-pak-for-data-foundation
     description: Layer for 300-cloud-pak-for-data-foundation
+    category: software
     type: bom
     versions:
       - version: v1.0.0
