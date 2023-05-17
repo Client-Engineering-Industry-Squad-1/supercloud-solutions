@@ -617,7 +617,7 @@ boms:
         metadataUrl: https://github.com/cloud-native-toolkit/automation-solutions/releases/download/700-cp4s-multicloud_v1.0.0/bom.yaml
   - name: 300-cloud-pak-for-data-foundation
     displayName: Cloud Pak for Data Foundation
-    description: Layer for 300-cloud-pak-for-data-foundation
+    description: Cloud Pak for Data Foundation
     category: software
     iconUrl: "https://raw.githubusercontent.com/Client-Engineering-Industry-Squad-1/supercloud-solutions/main/icons/software/datafoundation.svg"
     type: bom
